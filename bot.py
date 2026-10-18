@@ -1,8 +1,8 @@
-from flask import Flask
+from flask import flask
 import os
 import threading
 
-app = Flask(__name__)
+app = flask(__name__)
 
 
 @app.route("/")
