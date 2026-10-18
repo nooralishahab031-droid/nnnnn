@@ -1,5 +1,7 @@
 python
-import threading from http.server import HTTPServer, SimpleHTTPRequestHandler import os
+import threading from http.server
+ import HTTPServer, SimpleHTTPRequestHandler
+  import os
 
 def run_server():
 
